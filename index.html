@@ -3,22 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>HOME</title>
+    
 </head>
 <body>
-    <header><nav>
+    <header ><nav>
     
     <a href="./PROJECT/project.html">PROJECT</a>
     <a href="./SKILLS/skill.html">SKILL</a>
     <a href="./CONTACTS/contact.html">CONTACT</a>
     <a href="./form/index.html">FORM</a>
     </nav></header>
-    <H1>PORTFOLIO</H1>
+    <div style="width: 30 ">
+    <H1 >PORTFOLIO</H1>
+    </div>
     <article>
-    <H2>BIO</H2>
-    <P>MUNEEB UR REHMAN FUTURE WEB DEVELOPER </P>
-    
     <img src="img.jpg.jpg" alt="img" height="300"width300>
+    
+    <P>MUNEEB UR REHMAN  </P>
+    <img id="speaker" src="./sp.png" alt="Speaker Icon"width10></h2>
       </article>
     <br>
     <section>
@@ -59,7 +63,7 @@
           <td>Matric</td>
           <td>Peshawar Model Schol branch boys 5 peshawar</td>
           <td>A</td>
-          <td>220</td>
+          <td>2020</td>
       </tr>
       <tr>
           <td>Fsc</td>
@@ -96,11 +100,17 @@
  <br>
  <br>
  <br>
- <br>
- <br>
- <br>
- 
- <footer>
+ !-- java script for audio
+    <script>
+        var audio = new Audio("./images/intro.mp3");
+
+        function playAudio() {
+            audio.play();
+        }
+
+        document.getElementById("speaker").addEventListener("click", playAudio);
+    </script>
+ <footer class="header">
     <p>&copy; 2024 portfolio. All rights reserved.</p>
     <p>Contact: info@yourwebsite.com</p>
 </footer>

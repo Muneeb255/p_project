@@ -1,0 +1,53 @@
+/* Styles for header and navigation */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  /* Styles for article */
+  article {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Styles for image */
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Styles for table and fieldset */
+  table {
+    width: 100%;
+  }
+  
+  fieldset {
+    margin-top: 20px;
+  }
+  
+  legend {
+    font-weight: bold;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Styles for footer */
+  footer {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position:static;
+    bottom: 0;
+    width: 100%;
+  }
+  

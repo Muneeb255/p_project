@@ -1,0 +1,58 @@
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  /* styles.css */
+
+/* Styles for headings */
+h1 {
+    font-size: 24px;
+    color: #333; /* Dark gray color */
+    
+}
+
+h2 {
+    font-size: 20px;
+    color: #666; /* Medium gray color */
+}
+
+/* Styles for paragraphs */
+p {
+    font-size: 14px;
+    color: #000000; /* Dark black color */
+}
+
+
+/* Style for list items */
+ul li {
+    font-size: 14px;
+    color: #777777; /* Another shade of gray */
+}
+
+/* Style for images */
+img {
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+/* Style for videos */
+video {
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+footer {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position:static;
+    bottom: 0;
+    width: 100%;
+  }
+  

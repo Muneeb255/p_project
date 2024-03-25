@@ -1,0 +1,41 @@
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  /* styles.css */
+
+/* Style for article */
+article {
+    background-color: #f9f9f9; /* Light gray background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+/* Styles for headings */
+h1 {
+    font-size: 24px;
+    color: #333; /* Dark gray color */
+}
+
+/* Styles for paragraphs */
+p {
+    font-size: 16px;
+    color: #000; /* Dark black color */
+}
+footer {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position:static;
+    bottom: 0;
+    width: 100%;
+  }
+
