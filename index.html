@@ -20,9 +20,7 @@
     </div>
     <article>
     <img src="img.jpg.jpg" alt="img" height="300"width300>
-    
-    <P>MUNEEB UR REHMAN  </P>
-    <img id="speaker" src="./sp.png" alt="Speaker Icon"width10></h2>
+    <h2>MUNEEB UR REHMAN <p><img id="speaker" src="./sp.png" alt="Speaker Icon" height="50"></p> </h2>
       </article>
     <br>
     <section>
@@ -100,16 +98,16 @@
  <br>
  <br>
  <br>
- !-- java script for audio
-    <script>
-        var audio = new Audio("./images/intro.mp3");
+ 
+ <script>
+    var audio = new Audio("./audio.m4a");
+    function playAudio() {
+        audio.play();
+    }
+    document.getElementById("speaker").addEventListener("click", playAudio);
+</script>
 
-        function playAudio() {
-            audio.play();
-        }
 
-        document.getElementById("speaker").addEventListener("click", playAudio);
-    </script>
  <footer class="header">
     <p>&copy; 2024 portfolio. All rights reserved.</p>
     <p>Contact: info@yourwebsite.com</p>

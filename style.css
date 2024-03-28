@@ -10,37 +10,30 @@ header {
     text-decoration: none;
     margin-right: 20px;
   }
+  
   /* Styles for article */
-  article {
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  /* Styles for image */
-  img {
-    display: block;
-    margin: 0 auto;
-  }
-  
-  /* Styles for table and fieldset */
-  table {
-    width: 100%;
-  }
-  
-  fieldset {
-    margin-top: 20px;
-  }
-  
-  legend {
-    font-weight: bold;
-  }
-  
-  th, td {
-    padding: 8px;
-    text-align: left;
-  }
-  
-  /* Styles for footer */
+
+/* Styles for table and fieldset */
+table {
+  width: 90%; /* Decreased width */
+  margin: 0 auto; /* Center the table */
+}
+
+fieldset {
+  margin-top: 10px; /* Decreased margin-top */
+}
+
+legend {
+  font-weight: bold;
+  font-size: 18px; /* Decreased font-size */
+}
+
+th, td {
+  padding: 5px; /* Decreased padding */
+  text-align: left;
+  font-size: 14px; /* Decreased font-size */
+}
+
   footer {
     background-color: #333333;
     color: white;
