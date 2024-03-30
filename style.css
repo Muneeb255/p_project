@@ -12,7 +12,10 @@ header {
   }
   
   /* Styles for article */
-
+article  {
+  text-align: center;
+  
+}
 /* Styles for table and fieldset */
 table {
   width: 90%; /* Decreased width */
